@@ -1,0 +1,7 @@
+# treat notebooks as binary to avoid end-of-line munging
+*.ipynb -text
+
+# normalize common text files to LF inside the repo
+*.py     text=auto eol=lf
+*.md     text=auto eol=lf
+*.csv    text=auto eol=lf
